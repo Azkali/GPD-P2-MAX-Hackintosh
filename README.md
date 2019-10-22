@@ -7,10 +7,10 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## Basic Usage
 
-1. Create a bootable Mojave or Catalina bootable USB
+1. Create a bootable Mojave or Catalina bootable USB using this [tutorial](https://internet-install.gitbook.io/macos-internet-install/) but use my CLOVER folder at the point where you should configure CLOVER bootloader
 2. Boot from this usb then install Mojave/Catalina on a free partition of your drive
-3. During first boot, after installation place the CLOVER folder inside your EFI partition
-4. Reboot and change Bios bootloader order to have clover bootloader as first option
+3. During first boot, after installing the OS, mount your EFI partition and place the CLOVER folder alongside other OSes bootloader
+4. Reboot and change BIOS bootloader order to have clover bootloader as first entry
 5. Open your config.plist and generate a new serial number [Tutorial here](https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/)
 6. Install additionals drivers
 7. Reboot and enjoy !
