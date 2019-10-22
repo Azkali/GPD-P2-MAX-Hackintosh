@@ -1,6 +1,7 @@
 # GPD P2 MAX Hackintosh
 
 EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave with BIOS v0.24.
+If you see anything that could be added or changed don't hesitate to make a pull request.
 
 ![Catalina with working Graphics Acceleration](/images/Catalina.jpeg)
 
@@ -35,6 +36,7 @@ EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave with BI
 
 ## What doesn't work
 
+- USB Mapping ( it should work but it's not done yet, you can make a pull request to add it )
 - TouchScreen
 - Fingerprint Sensor
 - Internal Wi-Fi ( Intel AC 7625 )
@@ -42,5 +44,5 @@ EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave with BI
 ## Credits
 
 [All users from the GPD Discord]()
-[]()
-[]()
+[Fewr's Hackintosh guide](https://fewt.gitbook.io/laptopguide/)
+[GPD for making the great P2 MAX](http://gpd.hk/)
