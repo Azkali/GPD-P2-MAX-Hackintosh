@@ -2,7 +2,7 @@
 
 EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave with BIOS v0.24.
 
-![Catalina with working Graphics Acceleration](/Catalina.jpeg)
+![Catalina with working Graphics Acceleration](/images/Catalina.jpeg)
 
 ## Basic Usage
 
