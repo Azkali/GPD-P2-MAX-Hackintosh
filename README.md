@@ -11,7 +11,9 @@ If you see anything that could be added or changed don't hesitate to make a pull
 2. Boot from this usb then install Mojave/Catalina on a free partition of your drive
 3. During first boot, after installation place the CLOVER folder inside your EFI partition
 4. Reboot and change Bios bootloader order to have clover bootloader as first option
-5. Enjoy !
+5. Open your config.plist and generate a new serial number [Tutorial here](https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/)
+6. Install additionals drivers
+7. Reboot and enjoy !
 
 ### Additional drivers
 
@@ -43,6 +45,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## Credits
 
-[All users from the GPD Discord]()
-[Fewr's Hackintosh guide](https://fewt.gitbook.io/laptopguide/)
-[GPD for making the great P2 MAX](http://gpd.hk/)
+[All users from the GPD Discord]() <br>
+[Fewr's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
+[GPD for making the great P2 MAX](http://gpd.hk/) <br>
