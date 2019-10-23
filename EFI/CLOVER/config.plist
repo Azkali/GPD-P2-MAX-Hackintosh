@@ -134,6 +134,48 @@
 					WEhDXw==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -150,9 +192,9 @@
 			</dict>
 		</array>
 		<key>FixHeaders</key>
-		<true/>
-		<key>HaltEnabler</key>
 		<false/>
+		<key>HaltEnabler</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -163,7 +205,11 @@
 				<false/>
 				<key>PStates</key>
 				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
+			<key>PluginType</key>
+			<string>1</string>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -196,12 +242,19 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+			<dict>
+				<key>compatible</key>
+				<string>pci8086,9cc1</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>device-id</key>
 				<data>
 				cKEAAA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<integer>100</integer>
 			</dict>
@@ -213,10 +266,10 @@
 				</data>
 				<key>AAPL00,override-no-connect</key>
 				<data>
-				AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUM
-				UFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMA
+				AP///////wAGECqgAAAAAAoYAQSlEwx4L2+xp1VMniUM
+				UFQAAAABAQEBAQEBAQEBAQEBAQEB4mgA6KBAFGB4INMA
 				wHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA8PLKy
-				HAAAAAAAAAAAAAAA/ABDb2xvciBMQ0QKICAgANU=
+				HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=
 				</data>
 				<key>device-id</key>
 				<data>
@@ -238,24 +291,34 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con1-index</key>
+				<key>framebuffer-con1-has-lspcon</key>
 				<data>
-				/////w==
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-con2-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-index</key>
+				<key>framebuffer-con2-has-lspcon</key>
 				<data>
-				/////w==
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
-				AACQAA==
+				AAAAAw==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
@@ -403,6 +466,12 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02TK0M3HH27J9LJC</string>
+		<key>ROM</key>
+		<data>
+		s6YWX7ln
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -446,11 +515,17 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBook10,1</string>
+		<key>SerialNumber</key>
+		<string>C02TK0M3HH27</string>
+		<key>SmUUID</key>
+		<string>B9BCF35B-BF43-4235-A8A8-C05B585FB967</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>0E78BBC0-E3C8-4DFB-9E57-206ABEEE54F9</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
