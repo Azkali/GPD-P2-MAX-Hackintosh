@@ -27,18 +27,14 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Audio
 - Power Management
 - Battery Status ( patch differs if you have a 1st batch or 2nd batch GPD P2 MAX, if you have the 2nd batch remove DSDT.aml, and rename DSDT_2.aml as DSDT.aml )
-- USB
+- USB and USB Mapping
 - Keyboard
 - Camera
 - Sleep / Wake
-
-## Partially Working
-
-- TouchPad ( 20190919 Chinese keyboard firmware will cause problems )
+- TouchPad ( 20190919 Chinese keyboard firmware will cause problems, use the file driver inside touchpad_driver to downgrade credits : @Gabe87 from insanelymac )
 
 ## What doesn't work
 
-- USB Mapping ( it should work but it's not done yet, you can make a pull request to add it )
 - TouchScreen
 - Fingerprint Sensor
 - Internal Wi-Fi ( Intel AC 7625 )
@@ -46,5 +42,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ## Credits
 
 [All users from the GPD Discord]() <br>
-[Fewr's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
+[Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
 [GPD for making the great P2 MAX](http://gpd.hk/) <br>
+@Gabe87 from insanelymac forums

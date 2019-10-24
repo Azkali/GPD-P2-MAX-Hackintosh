@@ -517,15 +517,11 @@
 		<string>MacBook10,1</string>
 		<key>SerialNumber</key>
 		<string>C02TK0M3HH27</string>
-		<key>SmUUID</key>
-		<string>B9BCF35B-BF43-4235-A8A8-C05B585FB967</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>0E78BBC0-E3C8-4DFB-9E57-206ABEEE54F9</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
