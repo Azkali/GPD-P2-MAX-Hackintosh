@@ -224,12 +224,19 @@
 		<string>PBR</string>
 		<key>NeverHibernate</key>
 		<true/>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
+	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>UIScale</key>
+		<integer>2</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -381,9 +388,10 @@
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
-		<string>fr:0</string>
+		<string>en:0</string>
 		<key>Scan</key>
 		<true/>
 		<key>ScreenResolution</key>
