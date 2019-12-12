@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>RtWlanU</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1830.20.b31.10312018, Copyright © Realtek (R)</string>
+	<string>1830.32.b13.11052019, Copyright © Realtek (R)</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.realtek.driver.RtWlanU</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,25 +17,25 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1830.20.b31</string>
+	<string>1830.32.b13</string>
 	<key>CFBundleSignature</key>
 	<string>realtek</string>
 	<key>CFBundleVersion</key>
-	<string>1830.20.b31</string>
+	<string>1830.32.b13</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>5A2053</string>
+	<string>6C131e</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13A595</string>
+	<string>13F26</string>
 	<key>DTSDKName</key>
 	<string>macosx10.9</string>
 	<key>DTXcode</key>
-	<string>0501</string>
+	<string>0620</string>
 	<key>DTXcodeBuild</key>
-	<string>5A2053</string>
+	<string>6C131e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ASUS_1870_8812BU</key>
@@ -57,7 +57,26 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC53_8812BU</key>
+		<key>ASUS_USB-AC51_18E9_8811CU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6377</integer>
+			<key>idVendor</key>
+			<integer>2821</integer>
+		</dict>
+		<key>ASUS_USB-AC53_184C_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -76,7 +95,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC55B1_8812BU</key>
+		<key>ASUS_USB-AC55B1_1874_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -95,7 +114,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC55_8812BU</key>
+		<key>ASUS_USB-AC55_1841_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -114,7 +133,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC56_8812AU</key>
+		<key>ASUS_USB-AC56_17D2_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -133,7 +152,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC68ALL_8814AU</key>
+		<key>ASUS_USB-AC68ALL_1817_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -152,7 +171,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC68CE_8814AU</key>
+		<key>ASUS_USB-AC68CE_1853_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -171,7 +190,7 @@
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
-		<key>ASUS_USB-AC68FCC_8814AU</key>
+		<key>ASUS_USB-AC68FCC_1852_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -187,6 +206,44 @@
 			<integer>0</integer>
 			<key>idProduct</key>
 			<integer>6226</integer>
+			<key>idVendor</key>
+			<integer>2821</integer>
+		</dict>
+		<key>ASUS_USB-N10_18F0_8188EUS</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6384</integer>
+			<key>idVendor</key>
+			<integer>2821</integer>
+		</dict>
+		<key>ASUS_USB-N13_18F1_8192FU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6385</integer>
 			<key>idVendor</key>
 			<integer>2821</integer>
 		</dict>
@@ -209,7 +266,7 @@
 			<key>idVendor</key>
 			<integer>1976</integer>
 		</dict>
-		<key>AboCom_88EU</key>
+		<key>AboCom_8179_88EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -228,7 +285,7 @@
 			<key>idVendor</key>
 			<integer>1976</integer>
 		</dict>
-		<key>AboCom_92EU</key>
+		<key>AboCom_818B_92EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -247,7 +304,7 @@
 			<key>idVendor</key>
 			<integer>1976</integer>
 		</dict>
-		<key>AboCom_AC_8812AU</key>
+		<key>AboCom_AC_8812_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -266,26 +323,7 @@
 			<key>idVendor</key>
 			<integer>1976</integer>
 		</dict>
-		<key>Actiontec_8105_SingleBand_8811AU</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>33029</integer>
-			<key>idVendor</key>
-			<integer>5736</integer>
-		</dict>
-		<key>Actiontec_8108_DualBand_8811AU</key>
+		<key>Actiontec_DualBand_8108_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -304,7 +342,26 @@
 			<key>idVendor</key>
 			<integer>5736</integer>
 		</dict>
-		<key>AirTies_Air2520_8811AU</key>
+		<key>Actiontec_SingleBand_8105_11AU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>33029</integer>
+			<key>idVendor</key>
+			<integer>5736</integer>
+		</dict>
+		<key>AirTies_Air2520_2520_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -323,7 +380,7 @@
 			<key>idVendor</key>
 			<integer>7898</integer>
 		</dict>
-		<key>AirTies_Air2525_8811AU</key>
+		<key>AirTies_Air2525_2525_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -342,7 +399,7 @@
 			<key>idVendor</key>
 			<integer>7898</integer>
 		</dict>
-		<key>Belkin_F9L1106_v2_8812AU</key>
+		<key>Belkin_F9L1106v2_1109_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -380,45 +437,7 @@
 			<key>idVendor</key>
 			<integer>1293</integer>
 		</dict>
-		<key>Buffallo_433DM_8811AU</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>578</integer>
-			<key>idVendor</key>
-			<integer>1041</integer>
-		</dict>
-		<key>Buffallo_WI-U3-866D_8812AU</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>605</integer>
-			<key>idVendor</key>
-			<integer>1041</integer>
-		</dict>
-		<key>Buffallo_WI_U2_433DHP_8811AU</key>
+		<key>Buffallo_WIU2433DHP_029B_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -437,7 +456,45 @@
 			<key>idVendor</key>
 			<integer>1041</integer>
 		</dict>
-		<key>Buffallo_WLP_U2_433DHP_8811AU</key>
+		<key>Buffallo_WIU2433DM_0242_11AU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>578</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>Buffallo_WIU3866D_025D_12AU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>605</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>Buffallo_WLPU2433DHP_029D_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -551,7 +608,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA131C1_92EU</key>
+		<key>DLink_DWA131C1_3312_92EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -570,7 +627,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA131E_92EU</key>
+		<key>DLink_DWA131E_3319_92EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -589,7 +646,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA171C_8811CU</key>
+		<key>DLink_DWA171C_331D_8811CU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -608,7 +665,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA171_8811AU</key>
+		<key>DLink_DWA171_3314_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -627,7 +684,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA172_8811AU</key>
+		<key>DLink_DWA172_3318_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -646,7 +703,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA180A1_8812AU</key>
+		<key>DLink_DWA180A1_3316_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -665,7 +722,26 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA182B1_8812AU</key>
+		<key>DLink_DWA181_331E_12BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13086</integer>
+			<key>idVendor</key>
+			<integer>8193</integer>
+		</dict>
+		<key>DLink_DWA182B1_3313_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -684,7 +760,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA182C1_8812AU</key>
+		<key>DLink_DWA182C1_3315_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -703,7 +779,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA183_8812AU</key>
+		<key>DLink_DWA183_330E_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -722,7 +798,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DLink_DWA192_8814AU</key>
+		<key>DLink_DWA192_331A_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -760,7 +836,7 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
-		<key>DRAGON_8812AU</key>
+		<key>DRAGON_A812_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -798,7 +874,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>ELECOM_WDB433SU2M_8811AU</key>
+		<key>ELECOM_WDB433SU2M_400F_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -817,7 +893,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDB867DU3S_8812BU</key>
+		<key>ELECOM_WDB867DU3S_4011_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -836,7 +912,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC1300DU3_8814AU</key>
+		<key>ELECOM_WDC1300DU3_400B_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -855,7 +931,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC1300SU3_8814AU</key>
+		<key>ELECOM_WDC1300SU3_400D_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -874,7 +950,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC150SU2M_88EU</key>
+		<key>ELECOM_WDC150SU2M_4008_8188EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -893,7 +969,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC433DU2H2_8811AU</key>
+		<key>ELECOM_WDC433DU2H2_4010_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -912,7 +988,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC433DU2_8811AU</key>
+		<key>ELECOM_WDC433DU2_4007_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -931,7 +1007,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>ELECOM_WDC433SU2M2_8811AU</key>
+		<key>ELECOM_WDC433SU2M2_400E_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -950,7 +1026,7 @@
 			<key>idVendor</key>
 			<integer>1390</integer>
 		</dict>
-		<key>Edimax_AC1750_8814AU</key>
+		<key>Edimax_AC1750_A833_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -988,7 +1064,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_AC600_8811AU</key>
+		<key>Edimax_AC600_A812_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1007,7 +1083,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW-7611UCB_8821AU</key>
+		<key>Edimax_EW-7611UCB_B611_8821AU_BT</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1026,7 +1102,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW-7611ULB_8723BU</key>
+		<key>Edimax_EW-7611ULB_A611_8723BU_BT</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1045,7 +1121,45 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW-7811UAC_8811AU</key>
+		<key>Edimax_EW-7722UTn_B722_8192FU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>46882</integer>
+			<key>idVendor</key>
+			<integer>29586</integer>
+		</dict>
+		<key>Edimax_EW-7811GLN_B811_8188EU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>47121</integer>
+			<key>idVendor</key>
+			<integer>29586</integer>
+		</dict>
+		<key>Edimax_EW-7811UAC_A811_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1064,7 +1178,26 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW-7822UAC_8812AU</key>
+		<key>Edimax_EW-7822GTN_318B_8192FU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12683</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>Edimax_EW-7822UAC_A822_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1083,7 +1216,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW7822UNC_U2_8812BU</key>
+		<key>Edimax_EW7822UNC_U2_B822_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1102,7 +1235,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EW7822UTC_U3_8812BU</key>
+		<key>Edimax_EW7822UTC_U3_C822_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1121,7 +1254,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EXPERT_U2_8812BU</key>
+		<key>Edimax_EXPERT_U2_D822_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1140,7 +1273,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_EXPERT_U3_8812BU</key>
+		<key>Edimax_EXPERT_U3_E822_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1159,7 +1292,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>Edimax_GLP_8811AU</key>
+		<key>Edimax_GLP_A813_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1178,7 +1311,7 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
-		<key>EnGenius_AC_8812AU</key>
+		<key>EnGenius_AC_0100_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1197,7 +1330,7 @@
 			<key>idVendor</key>
 			<integer>5952</integer>
 		</dict>
-		<key>Flyteck_8821AU</key>
+		<key>Flyteck_0170_8821AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1216,7 +1349,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>Hawking_8812AU</key>
+		<key>Hawking_0022_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1235,7 +1368,7 @@
 			<key>idVendor</key>
 			<integer>3686</integer>
 		</dict>
-		<key>Hawking_HD65U_8811AU</key>
+		<key>Hawking_HD65U_0023_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1254,7 +1387,7 @@
 			<key>idVendor</key>
 			<integer>3686</integer>
 		</dict>
-		<key>Hawking_HW12ACU_8812BU</key>
+		<key>Hawking_HW12ACU_0025_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1273,7 +1406,7 @@
 			<key>idVendor</key>
 			<integer>3686</integer>
 		</dict>
-		<key>Hawking_HW17ACU_8814AU</key>
+		<key>Hawking_HW17ACU_0026_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1292,7 +1425,7 @@
 			<key>idVendor</key>
 			<integer>3686</integer>
 		</dict>
-		<key>Hawking_HW7ACU_8811AU</key>
+		<key>Hawking_HW7ACU_0024_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1311,7 +1444,7 @@
 			<key>idVendor</key>
 			<integer>3686</integer>
 		</dict>
-		<key>IO_DATA_AC433UM_8811AU</key>
+		<key>IODATA_AC433UM_0959_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1330,26 +1463,7 @@
 			<key>idVendor</key>
 			<integer>1211</integer>
 		</dict>
-		<key>IO_DATA_AC433_8812AU</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>2387</integer>
-			<key>idVendor</key>
-			<integer>1211</integer>
-		</dict>
-		<key>IO_DATA_WHG-AC433UM_8811AU</key>
+		<key>IODATA_WHG-AC433UM_095A_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1368,7 +1482,7 @@
 			<key>idVendor</key>
 			<integer>1211</integer>
 		</dict>
-		<key>IO_DATA_WN-AC867U_8812AU</key>
+		<key>IODATA_WN-AC867U_0952_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1387,7 +1501,26 @@
 			<key>idVendor</key>
 			<integer>1211</integer>
 		</dict>
-		<key>Infocus_INA-LCKEY_8812AU</key>
+		<key>IODATA_WNAC433UA_0953_11AU_1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2387</integer>
+			<key>idVendor</key>
+			<integer>1211</integer>
+		</dict>
+		<key>Infocus_INA-LCKEY_FF20_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1406,7 +1539,7 @@
 			<key>idVendor</key>
 			<integer>1420</integer>
 		</dict>
-		<key>LITEON_8602_8812BU</key>
+		<key>LITEON_WN8602L_8602_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1425,7 +1558,7 @@
 			<key>idVendor</key>
 			<integer>1226</integer>
 		</dict>
-		<key>Linksys_WUSB6300_8812AU</key>
+		<key>Linksys_WUSB6300_003F_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1444,7 +1577,7 @@
 			<key>idVendor</key>
 			<integer>5041</integer>
 		</dict>
-		<key>Linksys_WUSB6400M_8812BU</key>
+		<key>Linksys_WUSB6400M_0043_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1463,7 +1596,7 @@
 			<key>idVendor</key>
 			<integer>5041</integer>
 		</dict>
-		<key>Logitec_LAN-W866ACU3_8812AU</key>
+		<key>Logitec_LAN-W866ACU3_016E_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1482,7 +1615,7 @@
 			<key>idVendor</key>
 			<integer>1929</integer>
 		</dict>
-		<key>Loopcomm_ACA1_8812AU</key>
+		<key>Loopcomm_ACA1_9097_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1520,7 +1653,7 @@
 			<key>idVendor</key>
 			<integer>1033</integer>
 		</dict>
-		<key>NETSCOUT_8814AU</key>
+		<key>NETSCOUT_0002_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1539,7 +1672,7 @@
 			<key>idVendor</key>
 			<integer>11307</integer>
 		</dict>
-		<key>Netgear_A6100_8811AU</key>
+		<key>Netgear_A6100_9052_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1558,7 +1691,7 @@
 			<key>idVendor</key>
 			<integer>2118</integer>
 		</dict>
-		<key>Netgear_A6150_8812BU</key>
+		<key>Netgear_A6150_9055_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1596,7 +1729,7 @@
 			<key>idVendor</key>
 			<integer>2118</integer>
 		</dict>
-		<key>Netgear_A7000_8814AU</key>
+		<key>Netgear_A7000_9054_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1615,7 +1748,7 @@
 			<key>idVendor</key>
 			<integer>2118</integer>
 		</dict>
-		<key>PCI_GW-300S_92EU</key>
+		<key>PCI_GW-300S_AB33_92EU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1634,7 +1767,7 @@
 			<key>idVendor</key>
 			<integer>8217</integer>
 		</dict>
-		<key>PCI_GW-450S_8812AU</key>
+		<key>PCI_GW-450S_AB32_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1653,7 +1786,7 @@
 			<key>idVendor</key>
 			<integer>8217</integer>
 		</dict>
-		<key>PCI_GW-900D_8812AU</key>
+		<key>PCI_GW-900D_AB30_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1672,7 +1805,7 @@
 			<key>idVendor</key>
 			<integer>8217</integer>
 		</dict>
-		<key>Proxim_USB-9100_8812AU</key>
+		<key>Proxim_USB-9100_0115_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1691,7 +1824,7 @@
 			<key>idVendor</key>
 			<integer>2244</integer>
 		</dict>
-		<key>RTL8188EU</key>
+		<key>RTL8188EUAU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1706,11 +1839,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>33145</integer>
+			<integer>41337</integer>
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8188EU_ETV</key>
+		<key>RTL8188EU_0179_ETV</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1729,7 +1862,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8188EU_VAU</key>
+		<key>RTL8188EU_8179</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1744,7 +1877,7 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>41337</integer>
+			<integer>33145</integer>
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
@@ -1767,7 +1900,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8192EU</key>
+		<key>RTL8192EU_818B</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1786,7 +1919,26 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8192EU-2</key>
+		<key>RTL8192EU_818C_BT</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>33164</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>RTL8192FU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1801,11 +1953,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>33164</integer>
+			<integer>61842</integer>
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8723BU</key>
+		<key>RTL8723BU_B720_BT</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1824,7 +1976,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8811AU</key>
+		<key>RTL8811AU_0811</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1900,26 +2052,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8812AU</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>65535</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>34834</integer>
-			<key>idVendor</key>
-			<integer>3034</integer>
-		</dict>
-		<key>RTL8812AU-VL</key>
+		<key>RTL8812AU-VL_881B</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1938,7 +2071,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8812AU-VN</key>
+		<key>RTL8812AU-VN_881C</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1957,7 +2090,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8812AU-VS</key>
+		<key>RTL8812AU-VS_881A</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1976,7 +2109,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8812BU</key>
+		<key>RTL8812AU_8812</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -1991,7 +2124,7 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>47122</integer>
+			<integer>34834</integer>
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
@@ -2014,7 +2147,45 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8814AU</key>
+		<key>RTL8812BU_B812</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>47122</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>RTL8812CU_C812</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>51218</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>RTL8814AU_8813</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2033,7 +2204,26 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8821AU</key>
+		<key>RTL8814BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>47124</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>RTL8821AU_0823_BT</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2052,7 +2242,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8821CU</key>
+		<key>RTL8821CU_C820_Combo</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2071,7 +2261,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>RTL8822BU</key>
+		<key>RTL8822BU_B82C_Combo</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2087,6 +2277,25 @@
 			<integer>2</integer>
 			<key>idProduct</key>
 			<integer>47148</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>RTL8822CU_C82C_Combo</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>51244</integer>
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
@@ -2109,7 +2318,7 @@
 			<key>idVendor</key>
 			<integer>3574</integer>
 		</dict>
-		<key>Sitecom_WLA2104_8811AU</key>
+		<key>Sitecom_WLA2104_007A_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2128,7 +2337,7 @@
 			<key>idVendor</key>
 			<integer>3574</integer>
 		</dict>
-		<key>Sitecom_WLA7100_8812AU</key>
+		<key>Sitecom_WLA7100_0074_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2147,7 +2356,7 @@
 			<key>idVendor</key>
 			<integer>3574</integer>
 		</dict>
-		<key>Sitecom_WLA8100_8814AU</key>
+		<key>Sitecom_WLA8100_007B_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2261,6 +2470,63 @@
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
+		<key>TPLink_0115_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>277</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_0116_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>278</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_0117_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>279</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
 		<key>TPLink_011E_8811AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -2356,6 +2622,25 @@
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
+		<key>TPLink_0127_88EU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>295</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
 		<key>TPLink_0128_8811CU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -2394,6 +2679,25 @@
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
+		<key>TPLink_012A_88EU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>298</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
 		<key>TPLink_012C_8811CU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -2410,6 +2714,82 @@
 			<integer>0</integer>
 			<key>idProduct</key>
 			<integer>300</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_012D_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>301</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_012E_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>302</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_012F_88EU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>303</integer>
+			<key>idVendor</key>
+			<integer>9047</integer>
+		</dict>
+		<key>TPLink_0132_88EU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>306</integer>
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
@@ -2546,101 +2926,6 @@
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
-		<key>TPLink_8812BU_0115</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>277</integer>
-			<key>idVendor</key>
-			<integer>9047</integer>
-		</dict>
-		<key>TPLink_8812BU_0116</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>278</integer>
-			<key>idVendor</key>
-			<integer>9047</integer>
-		</dict>
-		<key>TPLink_8812BU_0117</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>279</integer>
-			<key>idVendor</key>
-			<integer>9047</integer>
-		</dict>
-		<key>TPLink_8812BU_012D</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>301</integer>
-			<key>idVendor</key>
-			<integer>9047</integer>
-		</dict>
-		<key>TPLink_8812BU_012E</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.realtek.driver.RtWlanU</string>
-			<key>IOClass</key>
-			<string>RtWlanU</string>
-			<key>IOKitDebug</key>
-			<integer>0</integer>
-			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>302</integer>
-			<key>idVendor</key>
-			<integer>9047</integer>
-		</dict>
 		<key>TPLink_T4UH_8812AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -2660,7 +2945,7 @@
 			<key>idVendor</key>
 			<integer>9047</integer>
 		</dict>
-		<key>TPLink_T4U_8812AU</key>
+		<key>TPLink_T4U_0101_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2717,7 +3002,7 @@
 			<key>idVendor</key>
 			<integer>9732</integer>
 		</dict>
-		<key>TrendNet_TBW108UB_8723BU</key>
+		<key>TrendNet_TBW108UB_108A_8723BU_BT</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2736,7 +3021,7 @@
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>
-		<key>TrendNet_TEW804B_8812AU</key>
+		<key>TrendNet_TEW804B_804B_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2755,7 +3040,7 @@
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>
-		<key>TrendNet_TEW805UB_8812AU</key>
+		<key>TrendNet_TEW805UB_805B_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2774,7 +3059,7 @@
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>
-		<key>TrendNet_TEW808UBM_8812BU</key>
+		<key>TrendNet_TEW808UBM_808A_8812BU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2793,7 +3078,7 @@
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>
-		<key>TrendNet_TEW809UB_8814AU</key>
+		<key>TrendNet_TEW809UB_809A_8814AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2812,7 +3097,7 @@
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>
-		<key>Western_AC_8812AU</key>
+		<key>Western_AC_0632_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2831,7 +3116,26 @@
 			<key>idVendor</key>
 			<integer>4184</integer>
 		</dict>
-		<key>ZION_8811CU</key>
+		<key>ZION_2005_8188GU8710B</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>8197</integer>
+			<key>idVendor</key>
+			<integer>3034</integer>
+		</dict>
+		<key>ZION_2006_8811CU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
@@ -2850,7 +3154,7 @@
 			<key>idVendor</key>
 			<integer>3034</integer>
 		</dict>
-		<key>ZyXEL_AC_8812AU</key>
+		<key>ZyXEL_AC_3426_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.realtek.driver.RtWlanU</string>
