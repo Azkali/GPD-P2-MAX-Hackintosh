@@ -134,48 +134,6 @@
 					WEhDXw==
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -269,18 +227,26 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAAeWQ==
+				BQAcWQ==
 				</data>
 				<key>AAPL00,override-no-connect</key>
 				<data>
-				AP///////wAGECqgAAAAAAoYAQSlEwx4L2+xp1VMniUM
-				UFQAAAABAQEBAQEBAQEBAQEBAQEB4mgA6KBAFGB4INMA
-				wHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA8PLKy
+				AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQ
+				SE8AAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMA
+				wHgAAAAYAAAA/ABKRElfOC45X0xDRAogAAAA/QA8PLKy
 				HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=
 				</data>
 				<key>device-id</key>
 				<data>
-				HlkAAA==
+				HFkAAA==
+				</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
 				</data>
 				<key>enable-lspcon-support</key>
 				<data>
@@ -332,7 +298,7 @@
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
-				AAAAgA==
+				/////w==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
@@ -401,18 +367,6 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>EDID</key>
-		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQSE8AAAAB
-			AQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABK
-			RElfOC45X0xDRAogAAAA/QA8PLKyHAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAANw=
-			</data>
-			<key>Inject</key>
-			<true/>
-		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -425,39 +379,12 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>#FakeCPUID</key>
-		<string>0x010676</string>
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>KernelCpu</key>
-		<false/>
-		<key>KernelLapic</key>
-		<false/>
 		<key>KernelPm</key>
 		<true/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -475,33 +402,33 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/19/2018</string>
+		<string>11/08/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB101.88Z.F000.B00.1809191505</string>
+		<string>MBA81.88Z.F000.B00.1911080343</string>
 		<key>Board-ID</key>
-		<string>Mac-EE2EBD4B90B839A8</string>
+		<string>Mac-827FAC58A8FDFA22</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02TK0M3HH27J9LJC</string>
+		<string>FVF839310CDKN2RA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Air-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>168.0.0.0.0</string>
+		<string>1037.60.55.0.0</string>
 		<key>Family</key>
-		<string>MacBook</string>
+		<string>MacBook Air</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE13F</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -511,13 +438,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x3A</string>
 		<key>ProductName</key>
-		<string>MacBook10,1</string>
+		<string>MacBookAir8,1</string>
 		<key>SerialNumber</key>
-		<string>C02TK0M3HH27</string>
+		<string>FVFXG06UJK78</string>
 		<key>SmUUID</key>
-		<string>B9BCF35B-BF43-4235-A8A8-C05B585FB967</string>
+		<string>8B19976F-5D52-4E76-93AD-0972E661C146</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
