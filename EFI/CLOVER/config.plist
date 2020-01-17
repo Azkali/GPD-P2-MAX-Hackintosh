@@ -94,7 +94,7 @@
 				<key>FixSBUS</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<true/>
 				<key>FixUSB</key>
@@ -112,13 +112,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SF9FQw==
-					</data>
+					<data>SF9FQw==</data>
 					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
+					<data>RUNfXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -126,13 +122,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
+					<data>WEhDSQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -215,9 +207,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
+				<data>cKEAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
@@ -226,9 +216,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AAAeWQ==
-				</data>
+				<data>AAAeWQ==</data>
 				<key>AAPL00,override-no-connect</key>
 				<data>
 				AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQ
@@ -237,61 +225,33 @@
 				HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=
 				</data>
 				<key>device-id</key>
-				<data>
-				HlkAAA==
-				</data>
+				<data>HlkAAA==</data>
 				<key>enable-lspcon-support</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-has-lspcon</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-index</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-has-lspcon</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-has-lspcon</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AAAAAw==
-				</data>
+				<data>AAAAAw==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -350,6 +310,8 @@
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
+		<key>PlayAsync</key>
+		<true/>
 		<key>Scan</key>
 		<true/>
 		<key>ScreenResolution</key>
@@ -362,12 +324,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Custom</key>
-			<data>
-			AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQSE8AAAAB
-			AQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABK
-			RElfOC45X0xDRAogAAAA/QA8PLKyHAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAANw=
-			</data>
+			<data>AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQSE8AAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABKRElfOC45X0xDRAogAAAA/QA8PLKyHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=</data>
 			<key>Inject</key>
 			<true/>
 		</dict>
