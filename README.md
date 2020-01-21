@@ -41,8 +41,8 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## Credits
 
-[All users from the GPD Discord]() <br>
+All users from the GPD Discord <br>
 [Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
 [GPD for making the great P2 MAX](http://gpd.hk/) <br>
 @Gabe87 from insanelymac forums <br>
-@lazd and @THEDVIOUS1 for the TouchScreen driver
+[@lazd](https://github.com/lazd/VoodooI2CGoodix) and [@THEDVIOUS1](https://github.com/THEDEVIOUS1) for the TouchScreen driver
