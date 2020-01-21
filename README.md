@@ -36,8 +36,8 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## What doesn't work
 
-- Fingerprint Sensor
-- Internal Wi-Fi ( Intel AC 7625 )
+- Fingerprint Sensor ( according to [](https://www.tonymacx86.com/threads/solved-asus-ux430ua-fingerprint-trackpad-touch-id.230671/#post-1572495) it cannot be used for TouchID. It also needs a driver ) 
+- Internal Wi-Fi Intel AC 7625 ( needs a driver )
 
 ## Credits
 
