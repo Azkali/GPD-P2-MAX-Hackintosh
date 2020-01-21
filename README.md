@@ -23,7 +23,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Graphics Acceleration
 - Bluetooth
-- Brigthness control
+- Brigthness control ( if your BIOS version is 0.27 remove ACPI/patched/SSDT-PNLF.aml and rename SSDT-PNLF-0.27.aml to SSDT-PNLF.aml )
 - Audio
 - Power Management
 - Battery Status ( patch differs if you have a 1st batch or 2nd batch GPD P2 MAX, if you have the 2nd batch remove DSDT.aml, and rename DSDT_2.aml as DSDT.aml )
