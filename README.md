@@ -32,10 +32,10 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Camera
 - Sleep / Wake
 - TouchPad ( 20190919 Chinese keyboard firmware will cause problems, use the file driver inside touchpad_driver to downgrade credits : @Gabe87 from insanelymac )
+- TouchScreen
 
 ## What doesn't work
 
-- TouchScreen
 - Fingerprint Sensor
 - Internal Wi-Fi ( Intel AC 7625 )
 
@@ -44,4 +44,5 @@ If you see anything that could be added or changed don't hesitate to make a pull
 [All users from the GPD Discord]() <br>
 [Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
 [GPD for making the great P2 MAX](http://gpd.hk/) <br>
-@Gabe87 from insanelymac forums
+@Gabe87 from insanelymac forums <br>
+@lazd and @THEDVIOUS1 for the TouchScreen driver
