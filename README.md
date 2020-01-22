@@ -32,7 +32,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Camera
 - Sleep / Wake
 - TouchPad ( 20190919 Chinese keyboard firmware will cause problems, use the file driver inside touchpad_driver to downgrade credits : @Gabe87 from insanelymac )
-- TouchScreen
+- TouchScreen ( only works on Catalina )
 
 ## What doesn't work
 
