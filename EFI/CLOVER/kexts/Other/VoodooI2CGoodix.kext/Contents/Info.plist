@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2.4</string>
+	<string>0.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>0.2.4</string>
+	<string>0.3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -49,10 +49,16 @@
 			<key>IOProbeScore</key>
 			<integer>200</integer>
 			<key>IOPropertyMatch</key>
-			<dict>
-				<key>name</key>
-				<string>GDIX1002</string>
-			</dict>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>GDIX1001</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>GDIX1002</string>
+				</dict>
+			</array>
 			<key>IOProviderClass</key>
 			<string>VoodooI2CDeviceNub</string>
 		</dict>
