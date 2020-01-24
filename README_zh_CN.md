@@ -24,25 +24,26 @@
 
 - 图形加速
 - 蓝牙
-- 亮度控制
+- 亮度控制 ( 如果你的 BIOS 版本是 0.27，请移除 ACPI/patched/SSDT-PNLF.aml 并将 SSDT-PNLF-0.27.aml 改名为 SSDT-PNLF.aml )
 - 声卡/麦克风
 - 电源管理
-- 电池状态 ( 补丁针对第一批和第二批 GPD P2 MAX 是有所不同的。如果你是第二批设备，删除 DSDT.aml, 然后把 DSDT_2.aml 改名为 DSDT.aml 即可)
+- 电池状态 ( 补丁针对第一批和第二批 GPD P2 MAX 是有所不同的。如果你是第二批设备，删除 DSDT.aml, 然后把 DSDT_2.aml 改名为 DSDT.aml 即可 )
 - USB 和 USB 映射
 - 键盘
 - 摄像头
 - 睡眠 / 唤醒
 - 触摸板 ( 20190919 中文键盘固件会导致问题, 请在 Windows 下运行 touchpad_driver 文件夹中的固件驱动进行降级。credits : @Gabe87 from insanelymac )
+- 触摸屏 ( 仅支持 Catalina )
 
 ## 哪些还不能工作
 
-- 触摸屏
 - 指纹识别传感器
 - 内置 Wi-Fi ( Intel AC 7625 )
 
 ## Credits
 
-[All users from the GPD Discord]() <br>
+All users from the GPD Discord <br>
 [Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
 [GPD for making the great P2 MAX](http://gpd.hk/) <br>
-@Gabe87 from insanelymac forums
+@Gabe87 from insanelymac forums <br>
+[@lazd](https://github.com/lazd/VoodooI2CGoodix) and [@THEDVIOUS1](https://github.com/THEDEVIOUS1) for the TouchScreen driver
