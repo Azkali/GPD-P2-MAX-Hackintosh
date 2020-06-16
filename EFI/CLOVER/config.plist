@@ -5,7 +5,7 @@
 	<key>ACPI</key>
 	<dict>
 		<key>AutoMerge</key>
-		<true/>
+		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>#DropOEM_DSM</key>
@@ -48,7 +48,7 @@
 				<key>AddIMEI</key>
 				<false/>
 				<key>AddMCHC</key>
-				<false/>
+				<true/>
 				<key>AddPNLF</key>
 				<false/>
 				<key>DeleteUnused</key>
@@ -142,9 +142,9 @@
 			</dict>
 		</array>
 		<key>FixHeaders</key>
-		<false/>
-		<key>HaltEnabler</key>
 		<true/>
+		<key>HaltEnabler</key>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -164,6 +164,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>dart=0 debug=0x100 keepsyms=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -173,13 +175,13 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>-1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -195,7 +197,7 @@
 			<key>Inject</key>
 			<integer>1</integer>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -218,12 +220,7 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAeWQ==</data>
 				<key>AAPL00,override-no-connect</key>
-				<data>
-				AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQ
-				SE8AAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMA
-				wHgAAAAYAAAA/ABKRElfOC45X0xDRAogAAAA/QA8PLKy
-				HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=
-				</data>
+				<string></string>
 				<key>device-id</key>
 				<data>HlkAAA==</data>
 				<key>enable-lspcon-support</key>
@@ -290,23 +287,16 @@
 					<key>Type</key>
 					<string>OSXRecovery</string>
 				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>Title</key>
-					<string>Windows</string>
-					<key>Type</key>
-					<string>Windows</string>
-				</dict>
 			</array>
 		</dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>Windows</string>
+			<string>Shared</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -341,7 +331,7 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>KernelCpu</key>
@@ -349,7 +339,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -396,6 +386,11 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Memory</key>
+		<dict>
+			<key>Channels</key>
+			<integer>2</integer>
+		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
