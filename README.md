@@ -1,6 +1,6 @@
 # GPD P2 MAX Hackintosh
 
-EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave with BIOS v0.24.
+EFI files for hackintosh on the GPD P2 MAX, works on Catalina and Mojave.
 If you see anything that could be added or changed don't hesitate to make a pull request.
 
 ![Catalina with working Graphics Acceleration](/images/Catalina.jpeg)
@@ -23,7 +23,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Graphics Acceleration
 - Bluetooth
-- Brigthness control ( if your BIOS version is 0.27 remove ACPI/patched/SSDT-PNLF.aml and rename SSDT-PNLF-0.27.aml to SSDT-PNLF.aml )
+- Brigthness control
 - Audio
 - Power Management
 - Battery Status

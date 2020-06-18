@@ -1,6 +1,6 @@
 # GPD P2 MAX 黑苹果
 
-在 GPD P2 MAX（BIOS v0.24/v0.25) 运行黑苹果所需要的 EFI 文件支持 Catalina 和 Mojave 两个系统。
+在 GPD P2 MAX 运行黑苹果所需要的 EFI 文件支持 Catalina 和 Mojave 两个系统。
 
 如果你发现任何可以添加或变更的东西，请不要犹豫，赶紧提交一个 pull request。
 
@@ -24,10 +24,10 @@
 
 - 图形加速
 - 蓝牙
-- 亮度控制 ( 如果你的 BIOS 版本是 0.27，请移除 ACPI/patched/SSDT-PNLF.aml 并将 SSDT-PNLF-0.27.aml 改名为 SSDT-PNLF.aml )
+- 亮度控制
 - 声卡/麦克风
 - 电源管理
-- 电池状态 ( 补丁针对第一批和第二批 GPD P2 MAX 是有所不同的。如果你是第二批设备，删除 DSDT.aml, 然后把 DSDT_2.aml 改名为 DSDT.aml 即可 )
+- 电池状态
 - USB 和 USB 映射
 - 键盘
 - 摄像头
@@ -38,12 +38,20 @@
 ## 哪些还不能工作
 
 - 指纹识别传感器
-- 内置 Wi-Fi ( Intel AC 7625 )
+
+## Work in progress
+
+- 内置 Wi-Fi
 
 ## Credits
 
-All users from the GPD Discord <br>
-[Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
-[GPD for making the great P2 MAX](http://gpd.hk/) <br>
-@Gabe87 from insanelymac forums <br>
-[@lazd](https://github.com/lazd/VoodooI2CGoodix) and [@THEDVIOUS1](https://github.com/THEDEVIOUS1) for the TouchScreen driver
+@Gabe87 from insanelymac forums \
+[Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) \
+[GPD for making the great P2 MAX](http://gpd.hk/)
+
+### Special Mentions
+
+Thanks to [@andreyakostov](https://github.com/andreyakostov) for his direct contributions and help throughout the project since the beginning ! \
+[@lazd](https://github.com/lazd/VoodooI2CGoodix) for the Goodix TouchScreen driver \
+[@THEDVIOUS1](https://github.com/THEDEVIOUS1) \
+[@andot](https://github.com/andot)
