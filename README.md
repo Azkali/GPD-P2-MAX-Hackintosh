@@ -26,23 +26,31 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Brigthness control ( if your BIOS version is 0.27 remove ACPI/patched/SSDT-PNLF.aml and rename SSDT-PNLF-0.27.aml to SSDT-PNLF.aml )
 - Audio
 - Power Management
-- Battery Status ( patch differs if you have a 1st batch or 2nd batch GPD P2 MAX, if you have the 2nd batch remove DSDT.aml, and rename DSDT_2.aml as DSDT.aml )
+- Battery Status
 - USB and USB Mapping
 - Keyboard
 - Camera
 - Sleep / Wake
-- TouchPad ( 20190919 Chinese keyboard firmware will cause problems, use the file driver inside touchpad_driver to downgrade credits : @Gabe87 from insanelymac )
-- TouchScreen ( only works on Catalina )
+- TouchPad ( 20190919 Chinese keyboard firmware will cause problems, use the file driver inside touchpad_driver to downgrade, credits : @Gabe87 from insanelymac )
+- TouchScreen - **Catalina only !**
 
 ## What doesn't work
 
-- Fingerprint Sensor ( according to [](https://www.tonymacx86.com/threads/solved-asus-ux430ua-fingerprint-trackpad-touch-id.230671/#post-1572495) it cannot be used for TouchID. It also needs a driver ) 
-- Internal Wi-Fi Intel AC 7625 ( needs a driver )
+- Fingerprint Sensor
+
+## Work in progress
+
+- Internal Wi-Fi Intel AC 7625
 
 ## Credits
 
-All users from the GPD Discord <br>
-[Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) <br>
-[GPD for making the great P2 MAX](http://gpd.hk/) <br>
-@Gabe87 from insanelymac forums <br>
-[@lazd](https://github.com/lazd/VoodooI2CGoodix) and [@THEDVIOUS1](https://github.com/THEDEVIOUS1) for the TouchScreen driver
+@Gabe87 from insanelymac forums \
+[Fewt's Hackintosh guide](https://fewt.gitbook.io/laptopguide/) \
+[GPD for making the great P2 MAX](http://gpd.hk/)
+
+### Special Mentions
+
+Thanks to [@andreyakostov](https://github.com/andreyakostov) for his direct contributions and help throughout the project since the beginning ! \
+[@lazd](https://github.com/lazd/VoodooI2CGoodix) for the Goodix TouchScreen driver \
+[@THEDVIOUS1](https://github.com/THEDEVIOUS1) \
+[@andot](https://github.com/andot)
