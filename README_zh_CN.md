@@ -34,14 +34,25 @@
 - 睡眠 / 唤醒
 - 触摸板 ( 20190919 中文键盘固件会导致问题, 请在 Windows 下运行 touchpad_driver 文件夹中的固件驱动进行降级。credits : @Gabe87 from insanelymac )
 - 触摸屏 ( 仅支持 Catalina )
+- 内置 Wi-Fi Intel AC 7625
 
 ## 哪些还不能工作
 
 - 指纹识别传感器
 
-## Work in progress
+## 如何使用内置 Wi-Fi
 
-- 内置 Wi-Fi
+1. 使用 XCode 打开 `/EFI/CLOVER/kexts/Other/itlwm.kext/Contents/Info.plist`, 然后编辑 `/IOKitPersonalities/itlwm/WiFiConfig` 下面的 `WiFi_1` 到 `WiFi_4`，填入你本地 Wi-Fi 路由器的 SSID 和密码然后保存。
+
+![wificonfig](/images/itlwm@2x.png)
+
+2. 把 `/wifi/HeliPort.zip` 解压缩到 `/Applications` 下面，然后配置登录项，让它开机自动启动，把托盘中原来的 Wi-Fi 图标删除。
+
+![login items](/images/loginitems@2x.png)
+
+3. 重启就可以上网了。
+
+![HeliPort](/images/HeliPort@2x.png)
 
 ## Credits
 
