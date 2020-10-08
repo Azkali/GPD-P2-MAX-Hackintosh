@@ -23,7 +23,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Graphics Acceleration
 - Bluetooth
-- Brigthness control
+- Brightness control
 - Audio
 - Power Management
 - Battery Status
