@@ -325,7 +325,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi debug=0x100 keepsyms=1</string>
+		<string></string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -341,7 +341,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -380,7 +380,7 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAeWQ==</data>
 				<key>AAPL00,override-no-connect</key>
-				<string></string>
+				<data>AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/ABDb2xvciBMQ0QKICAgAP0=</data>
 				<key>device-id</key>
 				<data>HlkAAA==</data>
 				<key>enable-lspcon-support</key>
@@ -401,14 +401,10 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AAAAAw==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>AAAAwA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -463,7 +459,10 @@
 		<key>PlayAsync</key>
 		<true/>
 		<key>Scan</key>
-		<true/>
+		<dict>
+			<key>Entries</key>
+			<true/>
+		</dict>
 		<key>ScreenResolution</key>
 		<string>2560x1600</string>
 		<key>Theme</key>
@@ -474,7 +473,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Custom</key>
-			<data>AP///////wAoiQIHAAAAAB8cAQSlEwz/LwAAoFdJmyYQSE8AAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABKRElfOC45X0xDRAogAAAA/QA8PLKyHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANw=</data>
+			<data>AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/ABDb2xvciBMQ0QKICAgAP0=</data>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -541,6 +540,102 @@
 				<data>igKEwOtC</data>
 			</dict>
 		</array>
+		<key>PanicNoKextDump</key>
+		<true/>
+	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>AppleCpuPmCfgLock</key>
+		<false/>
+		<key>AppleXcpmCfgLock</key>
+		<true/>
+		<key>AppleXcpmExtraMsrs</key>
+		<false/>
+		<key>AppleXcpmForceBoost</key>
+		<false/>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>CustomSMBIOSGuid</key>
+		<false/>
+		<key>DevirtualiseMmio</key>
+		<true/>
+		<key>DisableIoMapper</key>
+		<true/>
+		<key>DisableLinkeditJettison</key>
+		<true/>
+		<key>DisableRtcChecksum</key>
+		<false/>
+		<key>DisableSingleUser</key>
+		<false/>
+		<key>DisableVariableWrite</key>
+		<false/>
+		<key>DiscardHibernateMap</key>
+		<false/>
+		<key>DummyPowerManagement</key>
+		<false/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>EnableWriteUnprotector</key>
+		<true/>
+		<key>ExternalDiskIcons</key>
+		<false/>
+		<key>ForceExitBootServices</key>
+		<true/>
+		<key>FuzzyMatch</key>
+		<true/>
+		<key>IncreasePciBarSize</key>
+		<false/>
+		<key>KernelCache</key>
+		<string>Auto</string>
+		<key>LapicKernelPanic</key>
+		<false/>
+		<key>MmioWhitelist</key>
+		<array>
+			<dict>
+				<key>Address</key>
+				<integer>4275159040</integer>
+				<key>Comment</key>
+				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
+				<key>Enabled</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4278190080</integer>
+				<key>Comment</key>
+				<string>Generic: PCI root is a 0x1000 page memory region used by some firmwares</string>
+				<key>Enabled</key>
+				<false/>
+			</dict>
+		</array>
+		<key>PanicNoKextDump</key>
+		<true/>
+		<key>PowerTimeoutKernelPanic</key>
+		<true/>
+		<key>ProtectMemoryRegions</key>
+		<false/>
+		<key>ProtectSecureBoot</key>
+		<false/>
+		<key>ProtectUefiServices</key>
+		<true/>
+		<key>ProvideConsoleGopEnable</key>
+		<true/>
+		<key>ProvideCustomSlide</key>
+		<true/>
+		<key>ProvideMaxSlide</key>
+		<integer>0</integer>
+		<key>RebuildAppleMemoryMap</key>
+		<true/>
+		<key>SetupVirtualMap</key>
+		<true/>
+		<key>SignalAppleOS</key>
+		<false/>
+		<key>SyncRuntimePermissions</key>
+		<true/>
+		<key>ThirdPartyDrives</key>
+		<false/>
+		<key>XhciPortLimit</key>
+		<true/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
