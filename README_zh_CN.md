@@ -42,6 +42,28 @@
 
 最新的 Wi-Fi 和蓝牙驱动： https://github.com/OpenIntelWireless
 
+## 开机之后循环启动怎么解决
+
+新的 config.plist 中移除了下面几行代码：
+
+```xml
+<key>framebuffer-fbmem</key>    
+<data>AAAAAw==</data>    
+
+<key>framebuffer-stolenmem</key>    
+<data>AAAwAQ==</data>
+```
+
+目的是为了让内建显示屏支持更高的分辨率，例如：1440x900 HiDPI，1680x1050 HiDPI（但是需要使用专门的分辨率设置软件来设置，例如：SwitchResX）。
+
+但是因为去掉了这两行代码，而默认的 DVMT Pre-Allocated 只有 32M，所以会导致开机时不断重启，解决方法是参考：https://github.com/Azkali/GPD-P2-MAX-Hackintosh/issues/16 中的方法，执行：
+
+```
+setup_var_3 0x876 0x02
+```
+
+将 DVMT Pre-Allocated 的设置改为 64M，就可以解决这个问题了。
+
 ## Credits
 
 @Gabe87 from insanelymac forums \
