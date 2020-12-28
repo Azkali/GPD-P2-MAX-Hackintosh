@@ -41,6 +41,28 @@ Install  `HeliPort` to `/Applications`, run it and then set it boot automaticall
 
 The lastest Wi-Fi and Bluetooth driver: https://github.com/OpenIntelWireless
 
+## Note
+
+I removed
+
+```
+<key>framebuffer-fbmem</key>    
+<data>AAAAAw==</data>    
+
+<key>framebuffer-stolenmem</key>    
+<data>AAAwAQ==</data>
+```
+
+in config.plist to support more higher resolution, such as 1440x900 HiDPI, 1680x1050 HiDPI.
+
+So you shoud run:
+
+```
+setup_var_3 0x876 0x02
+```
+
+like this (https://github.com/Azkali/GPD-P2-MAX-Hackintosh/issues/16) to set the DVMT Pre-Allocated from 32M to 64M.
+
 ## Credits
 
 @Gabe87 from insanelymac forums \
