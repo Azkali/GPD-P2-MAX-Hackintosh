@@ -1,24 +1,20 @@
 # GPD P2 MAX 黑苹果
 
-在 GPD P2 MAX 运行黑苹果所需要的 EFI 文件支持 Catalina 和 Mojave 两个系统。
+在 GPD P2 MAX 运行黑苹果所需要的 EFI 文件支持 Catalina 和 BigSur 两个系统。
 
 如果你发现任何可以添加或变更的东西，请不要犹豫，赶紧提交一个 pull request。
 
-![Catalina with working Graphics Acceleration](/images/Catalina_cn@2x.png)
+![Catalina with working Graphics Acceleration](/images/BigSur@2x.jpg)
 
 ## 基本用法
 
-1. 参考 [教程](https://internet-install.gitbook.io/macos-internet-install/) 创建一个 Mojave 或 Catalina USB 安装启动盘，然后把启动盘中 EFI 分区 EFI 目录下的内容替换为本项目的 EFI 目录中的内容。
-2. 使用该 USB 安装盘安装 Mojave/Catalina 到你驱动器的一个空闲分区上。
+1. 参考 [教程](https://internet-install.gitbook.io/macos-internet-install/) 创建一个 BigSur 或 Catalina USB 安装启动盘，然后把启动盘中 EFI 分区 EFI 目录下的内容替换为本项目的 EFI 目录中的内容。
+2. 使用该 USB 安装盘安装 BigSur/Catalina 到你驱动器的一个空闲分区上。
 3. 安装完成后初次启动，挂载 EFI 分区，然后把 CLOVER 文件夹放到 EFI 分区的 EFI 分区中，如果你有多系统的话，不要把其他系统的启动目录和文件删掉。
 4. 重启进入 BIOS，修改启动器顺序，把 CLOVER 的启动器设置为第一个。
 5. 打开你的 config.plist 生成一个新的序列号。[教程在此](https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/)。另外补充一下，用 Clover Configurator 这个工具直接生成会更方便。
 6. 安装附加驱动程序。
 7. 重启之后就可以愉快的玩了。
-
-### 附加驱动程序
-
-[Wifi dongle driver](https://github.com/chris1111/Wireless-USB-Adapter-Clover)
 
 ## 哪些可以正常工作
 
@@ -31,9 +27,9 @@
 - USB 和 USB 映射
 - 键盘
 - 摄像头
-- 睡眠 / 唤醒
+- 睡眠 / 唤醒（Big Sur 有唤醒黑屏问题）
 - 触摸板 ( 20190919 中文键盘固件会导致问题, 请在 Windows 下运行 touchpad_driver 文件夹中的固件驱动进行降级。credits : @Gabe87 from insanelymac )
-- 触摸屏 ( 仅支持 Catalina )
+- 触摸屏
 - 内置 Wi-Fi Intel AC 7625
 
 ## 哪些还不能工作
@@ -42,17 +38,9 @@
 
 ## 如何使用内置 Wi-Fi
 
-1. 使用 XCode 打开 `/EFI/CLOVER/kexts/Other/itlwm.kext/Contents/Info.plist`, 然后编辑 `/IOKitPersonalities/itlwm/WiFiConfig` 下面的 `WiFi_1` 到 `WiFi_4`，填入你本地 Wi-Fi 路由器的 SSID 和密码然后保存。
+安装 wifi 目录下的 HeliPort，然后设置为开机启动就可以了。
 
-![wificonfig](/images/itlwm@2x.png)
-
-2. 把 `/wifi/HeliPort.zip` 解压缩到 `/Applications` 下面，然后配置登录项，让它开机自动启动，把托盘中原来的 Wi-Fi 图标删除。
-
-![login items](/images/loginitems@2x.png)
-
-3. 重启就可以上网了。
-
-![HeliPort](/images/HeliPort@2x.png)
+最新的 Wi-Fi 和蓝牙驱动： https://github.com/OpenIntelWireless
 
 ## Credits
 
