@@ -37,8 +37,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## How to use the internal Wi-Fi
 
-Install  `HeliPort` to `/Applications`, run it and then set it boot automatically. Remove the original Wi-Fi icon from the tray.
-
 The lastest Wi-Fi and Bluetooth driver: https://github.com/OpenIntelWireless
 
 ## Note

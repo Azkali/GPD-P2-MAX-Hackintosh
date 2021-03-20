@@ -38,8 +38,6 @@
 
 ## 如何使用内置 Wi-Fi
 
-安装 wifi 目录下的 HeliPort，然后设置为开机启动就可以了。
-
 最新的 Wi-Fi 和蓝牙驱动： https://github.com/OpenIntelWireless
 
 ## 开机之后循环启动怎么解决
