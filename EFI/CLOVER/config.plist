@@ -108,9 +108,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>T1NJRA==</data>
+					<data>
+					T1NJRA==
+					</data>
 					<key>Replace</key>
-					<data>WFNJRA==</data>
+					<data>
+					WFNJRA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -118,9 +122,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -128,9 +136,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -138,9 +150,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>RUMwXw==</data>
+					<data>
+					RUMwXw==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -148,9 +164,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SF9FQw==</data>
+					<data>
+					SF9FQw==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -158,9 +178,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>
+					RUNEVg==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -168,9 +192,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -178,9 +206,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>
+					SEVDSQ==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -188,9 +220,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>TUVJXw==</data>
+					<data>
+					TUVJXw==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -198,9 +234,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -208,9 +248,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>UENJMFZJRF8=</data>
+					<data>
+					UENJMFZJRF8=
+					</data>
 					<key>Replace</key>
-					<data>UENJMElHUFU=</data>
+					<data>
+					UENJMElHUFU=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -218,9 +262,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>VklEXwhfQURSDAAAAgA=</data>
+					<data>
+					VklEXwhfQURSDAAAAgA=
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQhfQURSDAAAAgA=</data>
+					<data>
+					SUdQVQhfQURSDAAAAgA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -228,9 +276,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0JJRg==</data>
+					<data>
+					X0JJRg==
+					</data>
 					<key>Replace</key>
-					<data>WEJJRg==</data>
+					<data>
+					WEJJRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -238,9 +290,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0JTVA==</data>
+					<data>
+					X0JTVA==
+					</data>
 					<key>Replace</key>
-					<data>WEJTVA==</data>
+					<data>
+					WEJTVA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -248,9 +304,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSw==</data>
+					<data>
+					X1dBSw==
+					</data>
 					<key>Replace</key>
-					<data>WFdBSw==</data>
+					<data>
+					WFdBSw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -258,9 +318,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwJwaA==</data>
+					<data>
+					R1BSVwJwaA==
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwJwaA==</data>
+					<data>
+					WFBSVwJwaA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -268,9 +332,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FEMEX1BUUw==</data>
+					<data>
+					FEMEX1BUUw==
+					</data>
 					<key>Replace</key>
-					<data>FEMEWFBUUw==</data>
+					<data>
+					FEMEWFBUUw==
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -369,7 +437,9 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>device-id</key>
-				<data>cKEAAA==</data>
+				<data>
+				cKEAAA==
+				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
@@ -378,33 +448,64 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAeWQ==</data>
+				<data>
+				AAAeWQ==
+				</data>
 				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/ABDb2xvciBMQ0QKICAgAP0=</data>
+				<data>
+				AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUM
+				UFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMA
+				wHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5T
+				EQAKICAgICAgAAAA/ABDb2xvciBMQ0QKICAgAP0=
+				</data>
 				<key>device-id</key>
-				<data>HlkAAA==</data>
+				<data>
+				HlkAAA==
+				</data>
 				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con0-has-lspcon</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con0-index</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-has-lspcon</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con2-has-lspcon</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
+				<data>
+				AAAAwA==
+				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -449,8 +550,6 @@
 		<string>Dark</string>
 		<key>Hide</key>
 		<array>
-			<string>Preboot</string>
-			<string>Recovery</string>
 			<string>Windows</string>
 			<string>Shared</string>
 		</array>
@@ -473,7 +572,12 @@
 		<key>EDID</key>
 		<dict>
 			<key>Custom</key>
-			<data>AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/ABDb2xvciBMQ0QKICAgAP0=</data>
+			<data>
+			AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBA2oA6KBAFGB4INMAwHgAAAAYAAAA/ABD
+			b2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/ABDb2xv
+			ciBMQ0QKICAgAP0=
+			</data>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -511,9 +615,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -521,11 +629,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRE</data>
+				<data>
+				igKEwHRE
+				</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>igKEwOtE</data>
+				<data>
+				igKEwOtE
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -533,11 +645,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>
+				igKEwHRC
+				</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>
+				igKEwOtC
+				</data>
 			</dict>
 		</array>
 		<key>PanicNoKextDump</key>
